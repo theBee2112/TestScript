@@ -192,7 +192,7 @@ rm -rf resq-linux-test.tar.gz
   stop_daemon
  
  # Deploy binaries to /usr/bin
- sudo cp ~/TestScript/resq_linux-test/resq* /usr/bin/
+ sudo cp ~/TestScript/resq/* /usr/bin/
  sudo chmod 755 -R ~/TestScript
  sudo chmod 755 /usr/bin/resq* 
  # Deploy masternode monitoring script
