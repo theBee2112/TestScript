@@ -219,7 +219,7 @@ EOF
     sudo chmod 755 -R ~/.resqcore/resq.conf
 
     #Starting daemon first time just to generate masternode private key
-    reefd -daemon
+    resqd -daemon
 echo -ne '[##                 ] (15%)\r'
 sleep 6
 echo -ne '[######             ] (30%)\r'
