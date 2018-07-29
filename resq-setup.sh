@@ -16,8 +16,8 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 #RESQ TCP port
-PORT=9857
-RPC=9859
+PORT=19998
+RPC=19988
 
 #Clear keyboard input buffer
 function clear_stdin { while read -r -t 0; do read -r; done; }
